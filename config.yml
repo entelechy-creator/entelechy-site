@@ -1,0 +1,28 @@
+baseURL: "https://entelechystudio.com/"
+languageCode: "en-us"
+title: "Entelechy"
+theme: "PaperMod"
+outputs: { home: ["HTML"] }
+disableKinds: ["taxonomy","term","RSS"]
+
+params:
+  defaultTheme: light
+  profileMode:
+    enabled: true
+    title: "Entelechy"
+    subtitle: "USPTO‑compliant patent figures. Precision CAD support."
+    buttons:
+      - name: "Services"
+        url: "#services"
+      - name: "Contact"
+        url: "#contact"
+  assets:
+    css: ["css/custom.css"]
+menu:
+  main:
+    - name: Services
+      url: "#services"
+      weight: 10
+    - name: Contact
+      url: "#contact"
+      weight: 20
